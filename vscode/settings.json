@@ -200,16 +200,6 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.tabCompletion": "on",
     "editor.tokenColorCustomizations": {
-        "[*Dark*]": {
-            "textMateRules": [
-                {
-                    "scope": "ref.matchtext",
-                    "settings": {
-                        "foreground": "#fff"
-                    }
-                }
-            ]
-        },
         "[*Light*]": {
             "textMateRules": [
                 {
@@ -220,14 +210,17 @@
                 }
             ]
         },
-        "textMateRules": [
-            {
-                "scope": "keyword.other.dotenv",
-                "settings": {
-                    "foreground": "#FF000000"
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
                 }
-            }
-        ]
+            ]
+        },
+        "textMateRules": []
     },
     "editor.unicodeHighlight.includeComments": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
@@ -743,5 +736,21 @@
     "yaml.style.flowSequence": "forbid",
     "zenMode.fullScreen": false,
     "zenMode.hideLineNumbers": false,
-    "zenMode.silentNotifications": false
+    "zenMode.silentNotifications": false,
+    "liveshare.accessibility.voice": "ja-JP-Nanami",
+    "liveshare.diagnosticLogging": true,
+    "liveshare.diagnosticMode": true,
+    "liveshare.anonymousGuestApproval": "reject",
+    "liveshare.guestApprovalRequired": true,
+    "liveshare.launcherClient": "visualStudioCode",
+    "liveshare.nameTagVisibility": "Always",
+    "liveshare.shareExternalFiles": false,
+    "liveshare.showInStatusBar": "whileCollaborating",
+    "liveshare.showReadOnlyUsersInEditor": "always",
+    "dotenv.enableAutocloaking": false,
+    "codeswing.autoSave": true,
+    "codeswing.showConsole": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "hediet.vscode-drawio.codeLinkActivated": true,
+    "hediet.vscode-drawio.theme": "Kennedy"
 }
